@@ -2,21 +2,37 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-		<title>Is Ping.gg Hiring?</title>
-	</head>
-	<body>
-		<div class="text-5xl flex h-screen font-sans">
-			<div class="m-auto">
-		<p class="text-center">Is <a href="https://ping.gg">Ping.gg</a> Hiring?</p>
-		<br /> 
-		<!-- ^ scuffed -->
-		<h1 class="text-center font-bold text-9xl">No</h1>
-		</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Is Ping.gg Hiring?</title>
+  </head>
+  <body>
+    <div class="text-5xl flex h-screen font-sans transition-all">
+      <div class="m-auto">
+        <p class="text-center">
+          Is <a href="https://ping.gg">Ping.gg</a> Hiring?
+        </p>
+        <br />
+        <!-- ^ scuffed -->
+        <h1 class="text-center font-bold text-9xl">No</h1>
+      </div>
+    </div>
+    <style>
+      @media (prefers-color-scheme: light) {
+        body {
+          background: #fff;
+          color: #18181b;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #18181b;
+          color: #fff;
+        }
+      }
+    </style>
+  </body>
 </html>
