@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        ping: "rgb(209,85,140)",
+      },
     },
   },
   plugins: [],
